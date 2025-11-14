@@ -5,3 +5,6 @@ crud/env.local
 student-admin/node_modules
 student-admin/.next
 student-admin/.env
+
+AUTHENTICATION_FIXES.md
+LOGOUT_AND_ROUTE_PROTECTION_FIXES.md
