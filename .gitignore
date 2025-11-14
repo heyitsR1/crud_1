@@ -1,0 +1,7 @@
+crud/dist
+crud/node_modules
+crud/env.local
+
+student-admin/node_modules
+student-admin/.next
+student-admin/.env
