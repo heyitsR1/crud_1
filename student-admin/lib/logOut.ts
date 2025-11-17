@@ -4,11 +4,9 @@ export default async function logOut () {
             credentials: 'include', 
         });
         if (response.ok) {
-            // Clear localStorage token
             if (typeof window !== 'undefined') {
                 localStorage.removeItem('auth_token');
             }
-            // Redirect to login page
             window.location.href = '/';
             console.log('Logout successful');
         } else {
